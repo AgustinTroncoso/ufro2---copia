@@ -38,12 +38,15 @@ public class Location {
     @Column(name="type", length=45)
     private String type;
 
-    @Column(name="name", length=100)
-    private String name;
 
     @Column(name="resident_length", length=100)
     private String resident_length;
 
+
+    
+    @Column(name="name", length=100)
+    private String name;
+    
  @Column(name="url", length=100)
     private String url;
 

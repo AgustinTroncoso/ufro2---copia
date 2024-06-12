@@ -30,11 +30,13 @@ public class User {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name="password",length=255)
+    private String password;
+    
     @Column(name="universe",length=45)
     private String universe;
 
-    @Column(name="password",length=255)
-    private String password;
+
     
     @Enumerated(EnumType.STRING)
     @Column(name="role")

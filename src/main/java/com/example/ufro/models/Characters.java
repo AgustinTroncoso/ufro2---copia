@@ -32,18 +32,19 @@ public class Characters {
     @Column(name="status", length=8)
     private String status;
 
-    @Column(name="created", length=45)
-    private String created;
     
-    @Column(name="gender", length=45)
-    private String gender;
-
     @Column(name="species", length=45)
     private String species;
     
     @Column(name="img", length=100)
     private String img;
     
+    @Column(name="created", length=45)
+    private String created;
+    
+    @Column(name="gender", length=45)
+    private String gender;
+
 
     @Column(name="name", length=100)
     private String name;
